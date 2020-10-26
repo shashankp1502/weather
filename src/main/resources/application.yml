@@ -1,0 +1,15 @@
+spring:
+  profiles.active: default
+---
+spring:
+  profiles: default
+
+server:
+  port: 8080
+
+constant:
+  weatherUrlPrefix: http://api.openweathermap.org/data/2.5/forecast?q=
+  weatherUrlSuffix: appid=99a643c741dcdcd0121f991fbb698153
+  rainAdvice: Carry Umbrella
+  sunnyDayAdvice: Use Sunscreen Lotion
+  clearCloudAdvice: Clear Clouds
